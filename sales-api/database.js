@@ -17,6 +17,8 @@ const connectDb = async (req, res, next) => {
     console.log(e)
     res.status(500).json({ message: "데이터베이스 연결 오류" })
   }
+  finally {
+  }
 }
 
 const getProduct = (sku) => `
