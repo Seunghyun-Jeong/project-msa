@@ -1,0 +1,8 @@
+*.zip
+*.tfstate
+*.tfstate.*
+.terraform.*
+.terraform
+
+darwin_arm64
+*-src
